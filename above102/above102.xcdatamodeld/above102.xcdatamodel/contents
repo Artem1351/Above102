@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
+    <entity name="DestinationEntity" representedClassName="DestinationEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="NO" attributeType="String"/>
+        <attribute name="title" optional="NO" attributeType="String"/>
+        <attribute name="location" optional="NO" attributeType="String"/>
+        <attribute name="imageURL" optional="NO" attributeType="String"/>
+        <attribute name="rating" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="price" optional="NO" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="duration" optional="NO" attributeType="String"/>
+        <attribute name="temperature" optional="NO" attributeType="String"/>
+        <attribute name="overview" optional="YES" attributeType="String"/>
+        <attribute name="details" optional="YES" attributeType="String"/>
+        <attribute name="isFavorite" optional="NO" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="viewCount" optional="NO" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="createdAt" optional="NO" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="AppStateEntity" representedClassName="AppStateEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="hasCompletedOnboarding" optional="NO" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="hasSeenPaywall" optional="NO" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="isPremium" optional="NO" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="profilePhotoData" optional="YES" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="DestinationEntity" positionX="-63" positionY="-18" width="128" height="319"/>
+        <element name="AppStateEntity" positionX="-63" positionY="9" width="128" height="109"/>
+    </elements>
+</model>
